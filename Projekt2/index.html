@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/79445b9466.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ToDo App</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Lista ToDo</h1>
+    </header>
+    <form action="" id="add-form">
+        <input type="text" class="new-task-input">
+        <button class="new-task-btn" type="submit">
+            <i class="fa-regular fa-square-plus"></i>
+        </button>
+        <div class="select">
+            <select name="new-task-status" class="task-filter">
+                <option value="all">Wszystkie</option>
+                <option value="completed">Skończone</option>
+                <option value="incomplete">Do zrobienia</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

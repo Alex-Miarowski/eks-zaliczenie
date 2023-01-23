@@ -1,0 +1,26 @@
+canvas { 
+    display: block; 
+    margin: auto;
+    border: 1px solid rgba(10,126,140,0.7);
+}
+
+body {
+    background-color: #505050;
+}
+
+#scoreboard {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    background-color:#54565e;
+    border: 1px solid rgba(10,126,140,0.7);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#startBtn {
+    margin-bottom: 10px;
+    background-color: rgba(10,126,140,0.7);
+}

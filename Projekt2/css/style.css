@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  font-family: "Open Sans", sans-serif;
+  color: rgb(212, 212, 212);
+}
+
+h1 {
+  font-size: 8rem;
+  text-shadow: 0.3rem 0.3rem 0.3rem #7f5a83;
+}
+
+button {
+  border: none;
+  color: rgb(122, 88, 128);
+  background: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+button:hover {
+  color: rgb(77, 136, 179);
+}
+
+form,
+header {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+form button {
+  margin: 0 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 3rem;
+  border-radius: 0.8rem;
+}
+
+.tasks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-filter {
+  padding: 1rem 0.3rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(122, 122, 122);
+  cursor: pointer;
+}
+
+.task {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+.task li {
+  flex: 1;
+}
+.task li::marker {
+  content: "";
+}
+
+.task-item {
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  transition: color 0.3s;
+}
+
+.task-item:hover {
+  color: #6f4f72;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 50%;
+}
+
+.complete-btn,
+.delete-btn {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.delete-btn {
+  margin-right: 0.5rem;
+}
+
+.completed-task .task-item {
+  text-decoration: line-through;
+  opacity: 0.3;
+}/*# sourceMappingURL=style.css.map */
