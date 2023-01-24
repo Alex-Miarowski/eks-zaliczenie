@@ -1,4 +1,4 @@
-# Aplikacja ToDo
+# Wirtualna biblioteka z userami i API
 
 ## Django
 
